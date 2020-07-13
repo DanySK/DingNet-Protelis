@@ -8,3 +8,7 @@ script:
 
 cache:
   - $HOME/.m2
+
+notifications:
+  email:
+    on_success: never
